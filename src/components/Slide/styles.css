@@ -1,0 +1,47 @@
+.slide1 {
+    height: 306px;
+    width: 445px;
+}
+
+.slide2 {
+    height: 306px;
+    width: 445px;
+}
+
+.slide3 {
+    height: 306px;
+    width: 445px;
+}
+
+.slide4 {
+    height: 306px;
+    width: 445px;
+}
+
+.slide5 {
+    height: 306px;
+    width: 445px;
+}
+
+.slide6 {
+    height: 306px;
+    width: 445px;
+}
+
+.slide7 {
+    height: 306px;
+    width: 445px;
+}
+
+.slide8 {
+    height: 306px;
+    width: 445px;
+}
+
+.slider1, .slider2 {
+    overflow-x: hidden;
+    width: 100vw;
+    margin-bottom: 41px;
+    box-shadow: 0 40px 5px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    transition: transform 0.3s ease; /* Optional: smooth hover effect */
+}

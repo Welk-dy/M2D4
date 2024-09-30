@@ -1,28 +1,44 @@
+@font-face {
+    font-family: NeueMontreal;
+    src: url(../../assets/NeueMontreal-Regular.ttf)format("truetype");
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../../assets/Inter.ttf)format("truetype");
+}
+
 .portofolio {
     display: flex;
     width: calc(100% - 160px);
     padding: 80px;
+    margin-bottom: 160px;
 }
 
 .left {
+    font-family: NeueMontreal;
     font-size: 40px;
-    font-style: normal;
     font-weight: 500;
-    line-height: normal;
+    line-height: 48px;
     flex-basis: 30%;
 }
 
 .right {
+    font-family: Inter;
     flex-basis: 70%;
     display: flex;
     flex-direction: column;
     gap: 64px;
-
 }
 
 .project-wrapper {
     display: flex;
     justify-content: space-between;
+    margin-top: 32px;
+}
+
+.project-roles {
+    margin-bottom: -32px;
 }
 
 .project-name {
@@ -30,6 +46,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-bottom: 18px;
 }
 
 .project-list {
@@ -40,3 +57,31 @@
     font-weight: 400;
     line-height: 160%; /* 28.8px */
 }
+
+.dot {
+    height: 85.25px;
+    width: 85.25px;
+    border: 1px solid #0B0C0E;
+    opacity: 80%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;      /* Aligns the icon and text vertically */
+    justify-content: center;
+    cursor: pointer;
+}
+
+.dot:hover {
+    background-color: black;
+}
+
+.arrow {
+    padding: 20px;
+}
+
+.dot:hover .arrow {
+    filter:  brightness(0) invert(1);
+}
+
+
+
+

@@ -6,8 +6,10 @@
     display: flex;
     justify-content: center;
     align-items: end;
-}
+    overflow-x: hidden;
+}  
 
 .hero img {
-    max-width: 70%;
+    max-height: 95%;
+    max-width: 80%;
 }

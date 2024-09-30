@@ -10,7 +10,7 @@ const Index: FC = () => {
         </div>
         <div className="nav-list">
           <a href="/public">About</a>
-          <a href="#work">Work</a>
+          <a href="/work">Work</a>
           <a href="/contact-us">Contact</a>
         </div>
       </nav>

@@ -1,10 +1,14 @@
 import {FC} from "react";
+import Header from "../../components/Header";
+import CUFooter from "../../components/CUFooter";
 
 const ContactUs: FC = () => {
   return (
-    <div>
-      Contact US (Not implemented, Yet at least)
-    </div>
+    <>
+      <Header />
+      
+      <CUFooter />
+    </>
   );
 }
 

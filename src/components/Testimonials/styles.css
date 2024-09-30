@@ -1,0 +1,66 @@
+@font-face {
+    font-family: NeueMontreal;
+    src: url(../../assets/NeueMontreal-Regular.ttf);
+}
+
+.testimonials {
+    font-family: NeueMontreal;
+    display: flex;
+    width: calc(100% - 160px);
+    padding: 80px;
+    margin-top: 160px;
+}
+
+.testi-left {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    flex-basis: 30%;
+}
+
+.testi-right {
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin-bottom: 141px;
+}
+
+.testi-details {
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 37.8px;
+    text-align: justify;
+}
+
+.testi-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 28px;
+}
+
+.testi-img {
+    width: 64px;
+    height: 64px;
+}
+
+.testi-person {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 6.5px 0px 6.5px 12px;
+}
+
+.testi-name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+}
+
+.testi-roles {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.4px;
+}

@@ -1,5 +1,5 @@
 
-const DUMMY_PROJECTS: Project[] = [
+const ProjectList: Project[] = [
   {
     name: "Decodable.co",
     roles: ["Brand Design", "Webflow Development", "Web Design"],
@@ -22,4 +22,4 @@ const DUMMY_PROJECTS: Project[] = [
   },
 ]
 
-export { DUMMY_PROJECTS };
+export { ProjectList };

@@ -1,6 +1,6 @@
 import {FC} from "react";
 import './styles.css';
-import {DUMMY_PROJECTS} from "../../constants/projectList.ts";
+import {ProjectList} from "../../constants/projectList.ts";
 import Project from "./components/Project";
 
 const Portofolio: FC = () => {
@@ -11,7 +11,7 @@ const Portofolio: FC = () => {
       </div>
       <div className="right">
         {/*Loop each of the project item so it become its own component*/}
-        {DUMMY_PROJECTS.map((project, index) => (
+        {ProjectList.map((project, index) => (
           // Object spreading
           <Project key={index} {...project} />
         ))}
